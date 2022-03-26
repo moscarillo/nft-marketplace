@@ -1,15 +1,24 @@
-# Basic Sample Hardhat Project
+# Example NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
+'''
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+'''
+
+use Localhost:8545
+
+Add Account to MetaMask
+
+Use Private Key with MetaMask - chrome extension
+
+'''
+npx hardhat run scripts/deploy.js --netowrk localhost
+'''
+
+'''
+yarn dev
+'''
+or
+'''
+yarn build
+yarn start
+'''
